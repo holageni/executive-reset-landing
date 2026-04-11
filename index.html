@@ -311,7 +311,36 @@
       .hero-top, .hero-bottom, #cta { overflow-x: clip; }
     }
     @media (min-width: 900px) { :root { --max-w: 860px; } }
-  </style>
+  
+    .collab-links{
+      margin-top: 1.25rem;
+      text-align: center;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: rgba(58,66,88,.72);
+    }
+    .collab-label{
+      margin-right: .35rem;
+    }
+    .collab-links a{
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 0.14em;
+    }
+    .collab-links a:hover{
+      opacity: .8;
+    }
+    .collab-sep{
+      margin: 0 .3rem;
+    }
+    @media (max-width: 640px){
+      .collab-links{
+        font-size: 0.82rem;
+        padding: 0 1rem;
+      }
+    }
+
+</style>
 </head>
 <body>
 
@@ -776,6 +805,16 @@
     Más Información
   </span>
 </a>
+
+
+      <div class="collab-links" aria-label="En colaboración con">
+        <span class="collab-label">En colaboración con:</span>
+        <a href="https://orbitexperiences.co" target="_blank" rel="noopener noreferrer">Orbit Experiences</a>
+        <span class="collab-sep">·</span>
+        <a href="https://www.airbnb.com/rooms/588857144820890964?unique_share_id=14c3d48f-873e-4b2d-867c-3ca23b1d1e0a&amp;viralityEntryPoint=1&amp;s=76" target="_blank" rel="noopener noreferrer">Casa Panorama</a>
+        <span class="collab-sep">·</span>
+        <a href="https://www.linkedin.com/in/taloleguizamon?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_ios" target="_blank" rel="noopener noreferrer">Talo Leguizamón</a>
+      </div>
 
 </body>
 </html>
